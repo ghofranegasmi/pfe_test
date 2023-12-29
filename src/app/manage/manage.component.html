@@ -1,0 +1,11 @@
+<div class="course">
+    <h3>{{ course.title }}</h3>
+    <p class="price">Price: ${{ course.price }}</p>
+  </div>
+  <div class="course-image">
+    <img [src]="course.imageUrl" alt="{{ course.title }} Image">
+  </div>
+  <div class="course-actions">
+    <button (click)="editCourse(course)">Edit</button>
+    <button (click)="deleteCourse(course)">Delete</button>
+  </div>

@@ -1,0 +1,121 @@
+/* Vous pouvez déplacer vos styles ici */
+
+  
+.top-bar {
+    background-color: white;
+    padding: 20px;
+    
+  }
+  
+  .top-bar img {
+   
+    height: 50px; /* Ajustez la taille du logo selon vos besoins */
+    padding: 5px; 
+    margin-left: 20px;
+    
+  }
+  
+  .background-section {
+    background-image: url('../assets/team1.png'); /* Changer le chemin vers votre image */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.7); /* Couleur blanche semi-transparente */
+    padding: 60px;
+    text-align: center;
+    max-width: 100%; /* Largeur maximale du rectangle */
+  
+  }
+  
+  .overlay p {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Couleur rose */
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .courses-section {
+    text-align: center;
+    background-color: #fff; 
+    padding: 40px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .courses-section p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin-right: auto; 
+  }
+
+ .courses-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; 
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  /* CSS pour la section des images */
+.courses-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  
+  
+  .contact-container {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+  }
+
+  .contact-container h2 {
+    color: black;
+  }
+
+  .contact-container form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container form input[type="text"],
+  .contact-container form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-container form .btn-send {
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Couleur rose */
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }

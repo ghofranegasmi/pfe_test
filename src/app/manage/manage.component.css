@@ -1,0 +1,22 @@
+.course {
+    padding: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    }
+    
+    .course img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    .course p {
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+    
+    .course .price {
+      color: #ff69b4; /* Couleur rose */
+    }
